@@ -6,6 +6,18 @@
   <meta name="description" content="Portfolio professionale di Roberto Di Nicola: infrastrutture IT, networking, cybersecurity e business continuity.">
   <meta name="theme-color" content="#080d0b">
   <title>Roberto Di Nicola | IT Infrastructure & Cybersecurity</title>
+  <link rel="canonical" href="https://robertodinicola.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://robertodinicola.github.io/">
+  <meta property="og:title" content="Roberto Di Nicola | IT Infrastructure &amp; Cybersecurity">
+  <meta property="og:description" content="Progetto, amministro e proteggo infrastrutture IT e reti aziendali: networking, virtualizzazione, backup, disaster recovery e cybersecurity.">
+  <meta property="og:image" content="https://robertodinicola.github.io/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="Roberto Di Nicola">
   <style>
     :root{--bg:#070b09;--panel:#0c1511;--panel2:#101c16;--green:#53ff9a;--green2:#18c96b;--text:#e7f4eb;--muted:#9bb3a2;--line:#1b3a29;--mono:ui-monospace,SFMono-Regular,Consolas,monospace}
     *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(ellipse at 70% 0%,#10301d 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
@@ -29,29 +41,40 @@
     .flow strong{color:var(--green);font-weight:600}.note{border-left:3px solid var(--green2);padding:12px 16px;background:#0b1710;color:#bcd0c1;border-radius:0 7px 7px 0;margin-top:18px;font-size:14px}
     .timeline{border-left:1px solid #2b6b43;margin:20px 0 0 8px;padding-left:22px}.timeline .item{position:relative;margin:0 0 22px}.timeline .item:before{content:"";position:absolute;width:9px;height:9px;background:var(--green);border-radius:50%;left:-27px;top:8px;box-shadow:0 0 12px #53ff9a}
     .muted{color:var(--muted)}footer{padding:28px 0 45px;color:#789180;font:12px var(--mono);border-top:1px solid var(--line)}
-    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:60px 0 45px}.terminal{max-width:100%}.grid{grid-template-columns:1fr}.project{grid-template-columns:1fr}.links{gap:10px}.links a:nth-child(n+4){display:none}nav{align-items:flex-start}}
+    .who{display:flex;align-items:center;gap:22px;margin:18px 0}.who h1{margin:0}.avatar{width:118px;height:118px;flex:none;object-fit:cover;border-radius:16px;border:2px solid var(--green);box-shadow:0 0 34px #19c96b33}
+    h1 .cursor{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+    .btn.cv{font-family:var(--mono);font-size:14px}.links{order:1}.navcv{order:2;font:600 12px var(--mono);border:1px solid var(--green2);border-radius:6px;padding:5px 10px;white-space:nowrap}
+    .timeline .when{font:13px var(--mono);color:var(--green)}.timeline h3{margin:2px 0 4px;font-size:18px}.timeline h3 small{color:var(--muted);font-weight:500;font-size:14px}.timeline ul{color:#b5c9ba;font-size:15px;padding-left:19px;margin:8px 0 0}
+    .certs li::marker{content:"[✓] ";color:var(--green);font-family:var(--mono)}.doing li::marker{content:"[~] ";color:#e8c872;font-family:var(--mono)}
+    section{scroll-margin-top:72px}@media(max-width:760px){section{scroll-margin-top:96px}}
+    a:focus-visible,.btn:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:6px}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}h1 .cursor{animation:none}}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:44px 0 40px}.terminal{max-width:100%}.grid{grid-template-columns:1fr}.project{grid-template-columns:1fr}nav{flex-wrap:wrap;gap:8px 16px}.terminal{font-size:12px;padding:18px}.eyebrow{letter-spacing:.06em;font-size:12px}.links{order:3;gap:16px;flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:4px;scrollbar-width:none}.links::-webkit-scrollbar{display:none}.links a{white-space:nowrap}.avatar{width:86px;height:86px}.who{gap:16px}}
   </style>
 </head>
 <body>
 <header class="top"><div class="wrap"><nav>
   <a class="brand" href="#home">RDN://PORTFOLIO</a>
-  <div class="links"><a href="#profilo">Profilo</a><a href="#competenze">Competenze</a><a href="#progetti">Progetti</a><a href="#formazione">Formazione</a><a href="#hobby">Hobby</a><a href="#contatti">Contatti</a></div>
+  <a class="navcv" href="assets/CV_Roberto_Di_Nicola.pdf" download>↓ CV.pdf</a>
+  <div class="links"><a href="#profilo">Profilo</a><a href="#esperienza">Esperienza</a><a href="#competenze">Competenze</a><a href="#progetti">Progetti</a><a href="#formazione">Formazione</a><a href="#hobby">HomeLab</a><a href="#contatti">Contatti</a></div>
 </nav></div></header>
 <main>
   <div class="wrap">
     <section class="hero" id="home" style="border:0">
       <div>
         <div class="eyebrow">IT infrastructure · networking · cybersecurity</div>
-        <h1>Roberto<br><span>Di Nicola</span></h1>
+        <div class="who"><img class="avatar" src="assets/foto.jpg" width="118" height="118" alt="Foto di Roberto Di Nicola"><h1>Roberto<br><span>Di Nicola</span><span class="cursor" aria-hidden="true">_</span></h1></div>
         <p class="lead">IT Infrastructure &amp; Cybersecurity Specialist. Progetto, amministro e proteggo infrastrutture IT e reti aziendali con soluzioni di continuità operativa.</p>
-        <div class="actions"><a class="btn primary" href="#progetti">Esplora i progetti</a><a class="btn" href="#contatti">Contattami</a><a class="btn" href="https://www.linkedin.com/in/roberto-di-nicola-08842b244/" target="_blank" rel="noopener">Profilo LinkedIn ↗</a></div>
+        <div class="actions"><a class="btn primary" href="#progetti">Esplora i progetti</a><a class="btn cv" href="assets/CV_Roberto_Di_Nicola.pdf" download>↓ Scarica CV</a><a class="btn" href="#contatti">Contattami</a><a class="btn" href="https://www.linkedin.com/in/roberto-di-nicola-08842b244/" target="_blank" rel="noopener">Profilo LinkedIn ↗</a></div>
       </div>
-      <div class="terminal" aria-label="Terminale decorativo">
+      <div class="terminal" aria-hidden="true">
         <div class="dots">● ● ● <span class="dim">/ system overview</span></div>
         <div><b>profile</b> = "IT &amp; Cybersecurity"</div>
         <div><b>experience</b> = "2011 → oggi"</div>
-        <div><b>focus</b> = ["networking", "virtualization",</div>
-        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"backup", "recovery", "security"]</div>
+        <div><b>focus</b> = [</div>
+        <div>&nbsp;&nbsp;"networking", "virtualization",</div>
+        <div>&nbsp;&nbsp;"backup", "recovery", "security"</div>
+        <div>]</div>
         <div><b>mindset</b> = "resilience_by_design"</div>
         <div class="dim">> systems ready. risks reduced.</div>
       </div>
@@ -61,6 +84,16 @@
       <h2>Profilo</h2>
       <p class="intro">Mi occupo di sistemi informatici e infrastrutture aziendali, con esperienza pratica nell'amministrazione IT, nella progettazione di reti, nella virtualizzazione e nella protezione dei dati. Nel mio ruolo seguo anche aspetti legati alla privacy e alla sensibilizzazione degli utenti sui rischi informatici.</p>
       <div class="card"><h3>Approccio</h3><p>Un'infrastruttura efficace non deve soltanto funzionare: deve essere monitorabile, manutenibile e recuperabile in caso di guasto. Per questo progetto soluzioni a più livelli, valutando operatività quotidiana, protezione dei dati e procedure di ripristino.</p></div>
+    </section>
+
+    <section id="esperienza">
+      <h2>Esperienza</h2>
+      <div class="timeline">
+        <div class="item"><div class="when">2013 → oggi · Montorio al Vomano (TE)</div><h3>Amministratore di Rete &amp; Responsabile Privacy <small>@ Gomma Srl · servizi di trasporto</small></h3>
+          <ul><li>Progettazione e gestione della rete aziendale su 4 edifici e 4 rack: subnet, firewall, router multi-WAN, switch PoE, Wi-Fi mesh.</li><li>Server Hyper-V con i gestionali, RAID 10, NAS e UPS centralizzato; cluster Proxmox VE a 3 nodi con Proxmox Backup Server.</li><li>Gestione di circa 25–30 postazioni, 10 stampanti di rete e circa 80 smartphone e SIM aziendali.</li><li>VPN WireGuard per lo smart working e accesso remoto ai macchinari PLC Industria 4.0.</li><li>Centralini VoIP Yeastar e VoiSpeed in cloud con auto-provisioning Yealink; videosorveglianza e allarme.</li><li>Endpoint management centralizzato, GPO, BitLocker; adeguamento GDPR e formazione dei colleghi sulle minacce.</li></ul></div>
+        <div class="item"><div class="when">2011 → 2013 · Montorio al Vomano (TE)</div><h3>Tecnico Informatico <small>@ Merlini Srl · servizi di trasporto</small></h3>
+          <p class="muted" style="margin:6px 0 0">Collaborazione a progetto: assistenza tecnica software, hardware e di rete.</p></div>
+      </div>
     </section>
 
     <section id="competenze">
@@ -98,10 +131,19 @@
         <article class="card">
           <h3>Virtualizzazione con Proxmox</h3>
           <p>Realizzazione di un ambiente Proxmox VE a tre nodi basato su workstation HP Z640, con nodo dedicato a Proxmox Backup Server.</p>
-          <ul><li>Tre nodi con CPU Xeon, 64 GB RAM e SSD da 2 TB ciascuno.</li><li>Interfacce di rete 2,5 GbE su infrastruttura LAN attualmente a 1 Gb/s.</li><li>HA non attivata nell'attuale configurazione.</li><li>Ambiente distinto dalle VM Hyper-V che ospitano attualmente i gestionali di produzione.</li></ul>
+          <ul><li>Tre nodi con CPU Xeon, 64 GB RAM e SSD da 2 TB ciascuno.</li><li>Interfacce di rete 2,5 GbE.</li><li>Alta affidabilità (HA) implementata e testata: non adottata in produzione perché la rete a 2,5 GbE non garantisce un failover affidabile.</li><li>Ambiente distinto dalle VM Hyper-V che ospitano attualmente i gestionali di produzione.</li></ul>
+        </article>
+        <article class="card">
+          <h3>Connettività Multi-WAN</h3>
+          <p>Connettività ridondata in una zona senza fibra né cavo disponibili.</p>
+          <ul><li>Router multi-WAN con doppia linea in load balancing e failover.</li><li>Terza linea dati 4G come backup automatico.</li><li>Servizi e VPN raggiungibili anche in caso di guasto di una linea.</li></ul>
+        </article>
+        <article class="card">
+          <h3>Telefonia VoIP in cloud</h3>
+          <p>Migrazione e gestione dei centralini Yeastar e VoiSpeed in cloud.</p>
+          <ul><li>Auto-provisioning dei telefoni Yealink tramite MAC e IP.</li><li>Regole di instradamento, gruppi di chiamata, trasferimenti e preferenze utente.</li></ul>
         </article>
       </div>
-      <div class="note"><strong>Nota tecnica:</strong> replica, esportazione, backup e clonazione sono livelli distinti e complementari. Le procedure di avvio e ripristino descritte sono manuali dove indicato; non vengono dichiarati RPO/RTO o livelli di disponibilità non misurati.</div>
       <div class="flow" style="margin-top:18px"><strong>Schema sintetico dei livelli</strong><br>
         Hyper-V produzione → replica notturna → workstation clonata (ripartenza manuale)<br>
         Hyper-V produzione → esportazioni notturne → NAS con versioning<br>
@@ -113,11 +155,11 @@
 
     <section id="formazione">
       <h2>Formazione e aggiornamento</h2>
-      <p class="intro">Formazione tecnica continua tra sistemi, networking e cybersecurity. Le certificazioni conseguite sono distinte dai corsi in corso o dalla preparazione individuale.</p>
+      <p class="intro">Formazione tecnica continua tra sistemi, networking e cybersecurity.</p>
       <div class="grid">
-        <article class="card"><h3>Certificazioni Professionali</h3><ul><li>Google Cybersecurity Professional Certificate</li><li>Microsoft IT Support Specialist</li><li>EC-Council Network Defence Essentials</li><li>EC-Council Ethical Hacking Essentials</li><li>Ulteriore formazione Cisco, networking e sicurezza</li></ul></article>
-        <article class="card"><h3>Formazione in corso</h3><ul><li>IBM SOC Analyst – percorso in corso</li><li>Aggiornamento continuo su cybersecurity, penetration testing e vulnerabilità, consultando fonti come <a href="https://www.cve.org/" target="_blank" rel="noopener">CVE.org</a>, <a href="https://nvd.nist.gov/" target="_blank" rel="noopener">NIST NVD</a> e <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a> per gli aggiornamenti sulle CVE e sulle vulnerabilità sfruttate attivamente.</li></ul></article>
-        <article class="card"><h3>Laboratori, studio e HomeLab</h3><ul><li>TryHackMe e Hack The Box</li><li>Kali Linux, Wireshark e Metasploit</li><li>PowerShell, Bash e ambienti virtualizzati</li><li>Preparazione all’esame EC-Council Certified Ethical Hacker (CEH)</li></ul></article>
+        <article class="card"><h3>Certificazioni Professionali</h3><ul class="certs"><li>Google Cybersecurity Professional Certificate</li><li>Microsoft IT Support Specialist</li><li>Microsoft 365 Ecosystem</li><li>Microsoft Cloud Support</li><li>Windows Server 2022 Administration · University of Colorado</li><li>Cisco Academy · CCNA &amp; Cybersecurity</li><li>EC-Council Network Defense Essentials</li><li>EC-Council Ethical Hacking Essentials</li><li>PEKIT Security+ in Cybersecurity</li></ul></article>
+        <article class="card"><h3>Formazione in corso</h3><ul class="doing"><li>IBM SOC Analyst</li><li>Preparazione EC-Council Certified Ethical Hacker (CEH)</li><li>AWS Cloud computing</li><li>Aggiornamento continuo su cybersecurity, penetration testing e vulnerabilità, consultando fonti come <a href="https://www.cve.org/" target="_blank" rel="noopener">CVE.org</a>, <a href="https://nvd.nist.gov/" target="_blank" rel="noopener">NIST NVD</a> e <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a> per gli aggiornamenti sulle CVE e sulle vulnerabilità sfruttate attivamente.</li></ul></article>
+        <article class="card"><h3>Laboratori, studio e HomeLab</h3><ul><li>TryHackMe e Hack The Box</li><li>Kali Linux, Wireshark e Metasploit</li><li>PowerShell, Bash e ambienti virtualizzati</li><li>MikroTik, Zyxel e Palo Alto Networks</li></ul></article>
       </div>
     </section>
 
@@ -134,7 +176,7 @@
     <section id="contatti">
       <h2>Contatti</h2>
       <p class="intro">Per opportunità professionali, collaborazioni e approfondimenti tecnici.</p>
-      <div class="card"><h3>Roberto Di Nicola</h3><p>Email: <a href="mailto:roberto.dnicola@gmail.com">roberto.dnicola@gmail.com</a></p><p>GitHub: <a href="https://github.com/RobertoDiNicola" target="_blank" rel="noopener">github.com/RobertoDiNicola</a></p><p>LinkedIn: <a href="https://www.linkedin.com/in/roberto-di-nicola-08842b244/" target="_blank" rel="noopener">linkedin.com/in/roberto-di-nicola-08842b244</a></p><p class="muted">Disponibile a valutare opportunità in ambito IT infrastructure, networking e cybersecurity.</p></div>
+      <div class="card"><h3>Roberto Di Nicola</h3><p>Email: <a href="mailto:roberto.dnicola@gmail.com">roberto.dnicola@gmail.com</a></p><p>GitHub: <a href="https://github.com/RobertoDiNicola" target="_blank" rel="noopener">github.com/RobertoDiNicola</a></p><p>LinkedIn: <a href="https://www.linkedin.com/in/roberto-di-nicola-08842b244/" target="_blank" rel="noopener">linkedin.com/in/roberto-di-nicola-08842b244</a></p><p>CV: <a href="assets/CV_Roberto_Di_Nicola.pdf" download>CV_Roberto_Di_Nicola.pdf ↓</a></p><p class="muted">Disponibile a valutare opportunità in ambito IT infrastructure, networking e cybersecurity.</p></div>
     </section>
   </div>
 </main>
