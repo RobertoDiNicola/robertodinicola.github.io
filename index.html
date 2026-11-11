@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio professionale di Roberto Di Nicola: infrastrutture IT, networking, cybersecurity e business continuity.">
+  <meta name="theme-color" content="#080d0b">
+  <title>Roberto Di Nicola | IT Infrastructure & Cybersecurity</title>
+  <style>
+    :root{--bg:#070b09;--panel:#0c1511;--panel2:#101c16;--green:#53ff9a;--green2:#18c96b;--text:#e7f4eb;--muted:#9bb3a2;--line:#1b3a29;--mono:ui-monospace,SFMono-Regular,Consolas,monospace}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(ellipse at 70% 0%,#10301d 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:var(--green);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{width:min(1100px,92%);margin:auto}.top{position:sticky;top:0;z-index:5;background:#070b09eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 0}.brand{font:700 14px var(--mono);color:var(--green);letter-spacing:.08em}.links{display:flex;gap:18px;flex-wrap:wrap;font-size:13px}
+    .hero{padding:90px 0 72px;display:grid;grid-template-columns:1.4fr .8fr;gap:38px;align-items:center}
+    .eyebrow{font:13px var(--mono);color:var(--green);letter-spacing:.12em;text-transform:uppercase}
+    h1{font-size:clamp(38px,6vw,68px);line-height:1.05;letter-spacing:-.045em;margin:18px 0}
+    h1 span{color:var(--green)} .lead{font-size:19px;color:#c1d4c6;max-width:680px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:11px 17px;border:1px solid var(--green2);border-radius:7px;font-weight:650}.btn.primary{background:var(--green);color:#061009}
+    .terminal{background:#050906;border:1px solid #245638;border-radius:12px;padding:22px;box-shadow:0 0 45px #19c96b18;font:13px/1.9 var(--mono);color:#b8d9c2}
+    .terminal .dots{color:#50745b;margin-bottom:14px}.terminal b{color:var(--green);font-weight:500}.terminal .dim{color:#63816c}
+    section{padding:54px 0;border-top:1px solid var(--line)}h2{font-size:clamp(26px,4vw,36px);margin:0 0 12px;letter-spacing:-.03em}h2:before{content:"// ";font: .7em var(--mono);color:var(--green)}
+    .intro{color:var(--muted);max-width:760px;margin:0 0 26px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .card{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;padding:21px}
+    .card h3{margin:0 0 8px;color:var(--green);font-size:17px}.card p,.card li{color:#b5c9ba;font-size:14px}.card ul{padding-left:19px;margin:10px 0 0}
+    .tag{display:inline-block;border:1px solid #28583a;color:#a6ffc1;border-radius:30px;padding:4px 9px;font:11px var(--mono);margin:4px 4px 0 0}
+    .project{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.project .card{min-height:100%}
+    .flow{font:12px/1.8 var(--mono);background:#050906;border:1px dashed #2c7047;border-radius:8px;padding:14px;color:#c8e9d1;overflow-wrap:anywhere}
+    .flow strong{color:var(--green);font-weight:600}.note{border-left:3px solid var(--green2);padding:12px 16px;background:#0b1710;color:#bcd0c1;border-radius:0 7px 7px 0;margin-top:18px;font-size:14px}
+    .timeline{border-left:1px solid #2b6b43;margin:20px 0 0 8px;padding-left:22px}.timeline .item{position:relative;margin:0 0 22px}.timeline .item:before{content:"";position:absolute;width:9px;height:9px;background:var(--green);border-radius:50%;left:-27px;top:8px;box-shadow:0 0 12px #53ff9a}
+    .muted{color:var(--muted)}footer{padding:28px 0 45px;color:#789180;font:12px var(--mono);border-top:1px solid var(--line)}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:60px 0 45px}.terminal{max-width:100%}.grid{grid-template-columns:1fr}.project{grid-template-columns:1fr}.links{gap:10px}.links a:nth-child(n+4){display:none}nav{align-items:flex-start}}
+  </style>
+</head>
+<body>
+<header class="top"><div class="wrap"><nav>
+  <a class="brand" href="#home">RDN://PORTFOLIO</a>
+  <div class="links"><a href="#profilo">Profilo</a><a href="#competenze">Competenze</a><a href="#progetti">Progetti</a><a href="#formazione">Formazione</a><a href="#contatti">Contatti</a></div>
+</nav></div></header>
+<main>
+  <div class="wrap">
+    <section class="hero" id="home" style="border:0">
+      <div>
+        <div class="eyebrow">IT infrastructure · networking · cybersecurity</div>
+        <h1>Roberto<br><span>Di Nicola</span></h1>
+        <p class="lead">IT Infrastructure &amp; Cybersecurity Specialist. Progetto, amministro e proteggo infrastrutture IT, reti aziendali e sistemi di continuità operativa.</p>
+        <div class="actions"><a class="btn primary" href="#progetti">Esplora i progetti</a><a class="btn" href="#contatti">Contattami</a></div>
+      </div>
+      <div class="terminal" aria-label="Terminale decorativo">
+        <div class="dots">● ● ● <span class="dim">/ system overview</span></div>
+        <div><b>profile</b> = "IT &amp; Cybersecurity"</div>
+        <div><b>experience</b> = "2011 → oggi"</div>
+        <div><b>focus</b> = ["networking", "virtualization",</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"backup", "recovery", "security"]</div>
+        <div><b>mindset</b> = "resilience_by_design"</div>
+        <div class="dim">> systems ready. risks reduced.</div>
+      </div>
+    </section>
+
+    <section id="profilo">
+      <h2>Profilo</h2>
+      <p class="intro">Mi occupo di sistemi informatici e infrastrutture aziendali, con esperienza pratica nell'amministrazione IT, nella progettazione di reti, nella virtualizzazione e nella protezione dei dati. Nel mio ruolo seguo anche aspetti legati alla privacy e alla sensibilizzazione degli utenti sui rischi informatici.</p>
+      <div class="card"><h3>Approccio</h3><p>Un'infrastruttura efficace non deve soltanto funzionare: deve essere monitorabile, manutenibile e recuperabile in caso di guasto. Per questo progetto soluzioni a più livelli, valutando operatività quotidiana, protezione dei dati e procedure di ripristino.</p></div>
+    </section>
+
+    <section id="competenze">
+      <h2>Competenze tecniche</h2>
+      <p class="intro">Aree operative e tecnologie utilizzate in contesti professionali e di laboratorio.</p>
+      <div class="grid">
+        <article class="card"><h3>Networking &amp; Security</h3><p>Progettazione e gestione di reti distribuite su più edifici, segmentazione, connettività e accessi remoti.</p><span class="tag">TCP/IP</span><span class="tag">VLAN</span><span class="tag">Firewall</span><span class="tag">WireGuard</span><span class="tag">Multi-WAN</span><span class="tag">Wi-Fi</span></article>
+        <article class="card"><h3>Systems &amp; Virtualization</h3><p>Amministrazione di sistemi Windows e ambienti virtualizzati, gestione di servizi e applicazioni.</p><span class="tag">Windows</span><span class="tag">Hyper-V</span><span class="tag">Proxmox VE</span><span class="tag">Docker</span><span class="tag">Nextcloud</span><span class="tag">PowerShell</span></article>
+        <article class="card"><h3>Backup &amp; Recovery</h3><p>Strategie di replica, esportazione, copie esterne, immagini disco e ripristino di server e workstation.</p><span class="tag">RoboMirror</span><span class="tag">PBS</span><span class="tag">Disk2vhd</span><span class="tag">VHD</span><span class="tag">BitLocker</span><span class="tag">VeraCrypt</span></article>
+        <article class="card"><h3>Cybersecurity</h3><p>Analisi di email sospette, verifica di indicatori e attività di laboratorio su strumenti e ambienti Linux.</p><span class="tag">Kali Linux</span><span class="tag">Wireshark</span><span class="tag">VirusTotal</span><span class="tag">Metasploit</span><span class="tag">Endpoint Management</span></article>
+        <article class="card"><h3>Automation &amp; Operations</h3><p>Automazione di attività ricorrenti, copie, gestione file e supporto operativo agli utenti.</p><span class="tag">PowerShell</span><span class="tag">Bash</span><span class="tag">Robocopy</span><span class="tag">Sysinternals</span></article>
+        <article class="card"><h3>IT Services</h3><p>Gestione di servizi aziendali, posta, dispositivi, stampa, videosorveglianza e telefonia VoIP.</p><span class="tag">Yeastar</span><span class="tag">VoIP</span><span class="tag">cPanel</span><span class="tag">Microsoft 365</span></article>
+      </div>
+    </section>
+
+    <section id="progetti">
+      <h2>Progetti e architetture</h2>
+      <p class="intro">Esperienze e soluzioni tecniche sviluppate e gestite in ambito aziendale. Le descrizioni sono intenzionalmente anonimizzate e non includono dati, indirizzi o configurazioni riservate.</p>
+      <div class="project">
+        <article class="card">
+          <h3>Business Continuity &amp; Disaster Recovery</h3>
+          <p>Strategia multilivello per ridurre i tempi di fermo e mantenere disponibili copie recuperabili di sistemi e dati aziendali.</p>
+          <ul><li>Due VM Hyper-V di produzione con applicativi gestionali.</li><li>Replica notturna tramite RoboMirror verso una workstation clonata; in caso di guasto, avvio manuale delle VM replicate dopo riallineamento dei nomi.</li><li>Esportazioni notturne delle VM verso NAS con funzionalità di versioning.</li><li>Copie serali manuali su NVMe esterno da 4 TB, cifrato e custodito fuori sede, comprendenti dati gestionali, cartelle condivise e copie delle VM con software già installato.</li></ul>
+        </article>
+        <article class="card">
+          <h3>Protezione dei dati e ripristino granulare</h3>
+          <p>Livelli differenti per recuperare sia interi sistemi sia singoli documenti.</p>
+          <ul><li>NAS usato come destinazione delle esportazioni notturne, non come file server per evitare di aggiungere carico al servizio quotidiano di circa 25 postazioni.</li><li>Versioning NAS per conservare versioni precedenti secondo la configurazione attiva.</li><li>Windows File History sul file server per recuperare versioni precedenti di documenti degli utenti.</li><li>Cifratura dei supporti e protezione delle copie contenenti informazioni sensibili.</li></ul>
+        </article>
+        <article class="card">
+          <h3>Clonazione e immagini delle workstation</h3>
+          <p>Preparazione di percorsi di ripristino per le postazioni di lavoro, con l'obiettivo di ridurre reinstallazioni e riconfigurazioni.</p>
+          <ul><li>Clonazione periodica, circa ogni tre mesi, degli SSD delle circa 25 workstation.</li><li>PC dedicato con disco da 12 TB per archiviare immagini VHD create periodicamente con Microsoft Sysinternals Disk2vhd.</li><li>Possibilità di utilizzare le immagini su hardware compatibile in caso di guasto della postazione originale.</li></ul>
+        </article>
+        <article class="card">
+          <h3>Virtualizzazione con Proxmox</h3>
+          <p>Realizzazione di un ambiente Proxmox VE a tre nodi basato su workstation HP Z640, con nodo dedicato a Proxmox Backup Server.</p>
+          <ul><li>Tre nodi con CPU Xeon, 64 GB RAM e SSD da 2 TB ciascuno.</li><li>Interfacce di rete 2,5 GbE su infrastruttura LAN attualmente a 1 Gb/s.</li><li>HA non attivata nell'attuale configurazione.</li><li>Ambiente distinto dalle VM Hyper-V che ospitano attualmente i gestionali di produzione.</li></ul>
+        </article>
+      </div>
+      <div class="note"><strong>Nota tecnica:</strong> replica, esportazione, backup e clonazione sono livelli distinti e complementari. Le procedure di avvio e ripristino descritte sono manuali dove indicato; non vengono dichiarati RPO/RTO o livelli di disponibilità non misurati.</div>
+      <div class="flow" style="margin-top:18px"><strong>Schema sintetico dei livelli</strong><br>
+        Hyper-V produzione → replica notturna → workstation clonata (ripartenza manuale)<br>
+        Hyper-V produzione → esportazioni notturne → NAS con versioning<br>
+        Dati e VM → copia serale manuale → NVMe cifrato → conservazione off-site<br>
+        File server → File History → recupero versioni documenti<br>
+        Workstation → cloni SSD periodici + immagini VHD su archivio dedicato
+      </div>
+    </section>
+
+    <section id="formazione">
+      <h2>Formazione e aggiornamento</h2>
+      <p class="intro">Formazione tecnica continua tra sistemi, networking e cybersecurity. Le certificazioni conseguite sono distinte dai corsi in corso o dalla preparazione individuale.</p>
+      <div class="grid">
+        <article class="card"><h3>Attestati conseguiti</h3><ul><li>Google Cybersecurity Professional Certificate</li><li>Microsoft IT Support Specialist</li><li>EC-Council Network Defence Essentials</li><li>EC-Council Ethical Hacking Essentials</li><li>Ulteriore formazione Cisco, networking e sicurezza</li></ul></article>
+        <article class="card"><h3>Formazione in corso</h3><ul><li>IBM SOC Analyst – percorso in corso</li><li>Aggiornamento continuo su sicurezza, sistemi e infrastrutture</li></ul></article>
+        <article class="card"><h3>Laboratori e studio personale</h3><ul><li>TryHackMe e Hack The Box</li><li>Kali Linux, Wireshark e Metasploit</li><li>PowerShell, Bash e ambienti virtualizzati</li><li>Preparazione su temi di Ethical Hacking; nessuna certificazione CEH dichiarata</li></ul></article>
+      </div>
+    </section>
+
+    <section id="contatti">
+      <h2>Contatti</h2>
+      <p class="intro">Per opportunità professionali, collaborazioni e approfondimenti tecnici.</p>
+      <div class="card"><h3>Roberto Di Nicola</h3><p>Email: <a href="mailto:roberto.dnic@gmail.com">roberto.dnic@gmail.com</a></p><p>GitHub: <a href="https://github.com/RobertoDiNicola" target="_blank" rel="noopener">github.com/RobertoDiNicola</a></p><p class="muted">Disponibile a valutare opportunità in ambito IT infrastructure, networking e cybersecurity.</p></div>
+    </section>
+  </div>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Roberto Di Nicola · Portfolio tecnico · Built with HTML &amp; CSS</div></footer>
+</body>
+</html>
