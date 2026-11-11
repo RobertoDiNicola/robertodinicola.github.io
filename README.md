@@ -8,7 +8,7 @@ RDN://PORTFOLIO
 
 Portfolio professionale di **Roberto Di Nicola**: progettazione, amministrazione e protezione di infrastrutture IT e reti aziendali, con focus su continuità operativa e disaster recovery.
 
-**Sito:** [robertodinicola.github.io](https://robertodinicola.github.io/) · **CV:** [PDF](assets/CV_Roberto_Di_Nicola.pdf) · **LinkedIn:** [roberto-di-nicola](https://www.linkedin.com/in/roberto-di-nicola-08842b244/)
+**Sito:** [robertodinicola.github.io](https://robertodinicola.github.io/) · **LinkedIn:** [roberto-di-nicola](https://www.linkedin.com/in/roberto-di-nicola-08842b244/)
 
 ## Cosa trovi nel sito
 
@@ -32,7 +32,6 @@ Portfolio professionale di **Roberto Di Nicola**: progettazione, amministrazione
 .
 ├── index.html                  # tutto il sito
 └── assets/
-    ├── CV_Roberto_Di_Nicola.pdf
     ├── foto.jpg
     ├── og.png                  # anteprima per i social (1200×630)
     └── favicon.svg
