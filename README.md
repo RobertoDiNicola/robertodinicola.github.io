@@ -31,6 +31,7 @@ Portfolio professionale di **Roberto Di Nicola**: progettazione, amministrazione
 ```text
 .
 ├── index.html                  # tutto il sito
+├── cv.html                     # visualizzatore CV cifrato (AES-256-GCM, WebCrypto)
 └── assets/
     ├── CV_Roberto_Di_Nicola.pdf  # cifrato AES-256, password su richiesta
     ├── foto.jpg
